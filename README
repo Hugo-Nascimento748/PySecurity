@@ -1,0 +1,21 @@
+# 🛡️ PySecurity - Gerenciador de Senhas Seguro
+
+O PySecurity é um software desktop desenvolvido em Python para gestão segura de credenciais. Ele utiliza criptografia simétrica para garantir que as senhas sejam armazenadas de forma protegida no disco.
+
+## ✨ Funcionalidades
+- **Criptografia AES (Fernet):** Proteção total dos dados locais.
+- **Interface Moderna:** Desenvolvida com CustomTkinter (suporte a Dark Mode).
+- **Gestão Completa (CRUD):** Salvar, listar e excluir senhas de forma intuitiva.
+
+## 🚀 Tecnologias
+- [Python](https://www.python.org/)
+- [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) (Interface Visual)
+- [Cryptography](https://cryptography.io/) (Segurança)
+
+## 📦 Como rodar o projeto
+1. Clone o repositório.
+2. Crie um ambiente virtual: `python -m venv venv`.
+3. Instale as dependências: `pip install -r requirements.txt`.
+4. Execute o app: `python main.py`.
+
+> **Nota de Segurança:** O projeto gera automaticamente um arquivo `chave.key`. Mantenha-o seguro e fora de repositórios públicos!

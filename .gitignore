@@ -1,0 +1,10 @@
+# Ambiente Virtual
+venv/
+__pycache__/
+
+# Arquivos de Dados (Segurança!)
+chave.key
+senhas.txt
+
+# Arquivos do VS Code
+.vscode/
